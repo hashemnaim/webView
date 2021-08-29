@@ -5,9 +5,9 @@ class IsLoad extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      child:   SpinKitWanderingCubes(
-  color: Colors.blue,
-  size: 30.0,
+      child:   SpinKitPouringHourglass(
+  color: Colors.white,
+  size: 50.0,
       )
     );
   }

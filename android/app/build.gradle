@@ -18,11 +18,12 @@ if (flutterVersionCode == null) {
 
 def flutterVersionName = localProperties.getProperty('flutter.versionName')
 if (flutterVersionName == null) {
-    flutterVersionName = '1.0'
+    flutterVersionName = '1.0.0'
 }
 
 apply plugin: 'com.android.application'
 apply plugin: 'kotlin-android'
+// apply plugin: 'com.google.gms.google-services'
 apply from: "$flutterRoot/packages/flutter_tools/gradle/flutter.gradle"
 def keystoreProperties = new Properties()
 def keystorePropertiesFile = rootProject.file('key.properties')
@@ -41,10 +42,10 @@ android {
     }
 
     defaultConfig {
-        applicationId "com.hashem.arlin"
+        applicationId "com.hashem.ch3"
         minSdkVersion 19
-        targetSdkVersion 29
-        versionCode flutterVersionCode.toInteger()
+        targetSdkVersion 30
+           versionCode flutterVersionCode.toInteger()
         versionName flutterVersionName
             multiDexEnabled true
 
@@ -72,6 +73,6 @@ flutter {
 
 dependencies {
     implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
-        implementation 'com.android.support:multidex:2.0.1'
+        implementation "com.android.support:multidex:2.0.1"
 
 }

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
+import 'package:webview/animate_do.dart';
 import 'package:webview/isload.dart';
-import 'package:webview/web_viwe.dart';
+import 'package:webview/web_view.dart';
 
 class Splash extends StatefulWidget {
   @override
@@ -13,33 +13,41 @@ class _SplashState extends State<Splash> {
   initState() {
     super.initState();
 
-    var delay = Duration(seconds: 1);
+    var delay = Duration(seconds: 3);
     Future.delayed(delay, () {
-      Get.offAll(WebViewExample());
+      Navigator.pushAndRemoveUntil<void>(
+        context,
+        MaterialPageRoute<void>(
+            builder: (BuildContext context) => WebViewExample()),
+        ModalRoute.withName('/'),
+      );
     });
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.white,
+      backgroundColor: Colors.black,
       body: Container(child: CustomLogo()),
     );
   }
 }
 
 class CustomLogo extends StatelessWidget {
-  // CustomLogo({this.height, this.width});
-
   @override
   Widget build(BuildContext context) {
     return Stack(fit: StackFit.expand, children: [
       Column(
+        mainAxisAlignment: MainAxisAlignment.center,
         children: [
-          Expanded(
-            child: Image.asset(
-              'assets/images/splash_screen.png',
-              fit: BoxFit.fill,
+          FlipInX(
+            child: FlipInY(
+              child: Center(
+                child: Image.asset(
+                  'assets/images/logo.png',
+                  fit: BoxFit.contain,
+                ),
+              ),
             ),
           ),
         ],

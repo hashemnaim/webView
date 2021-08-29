@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>847138051370-rl2302ka3bnukpmr5ii77ecrpe7enq27.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.847138051370-rl2302ka3bnukpmr5ii77ecrpe7enq27</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAfje9FgdUec2y3qsGLWb6MQ1r5I_mspJs</string>
+	<key>GCM_SENDER_ID</key>
+	<string>847138051370</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.arlin.arlin</string>
+	<key>PROJECT_ID</key>
+	<string>arlin-store-push</string>
+	<key>STORAGE_BUCKET</key>
+	<string>arlin-store-push.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:847138051370:ios:a3ff3afe395d1a40943a53</string>
+</dict>
+</plist>
