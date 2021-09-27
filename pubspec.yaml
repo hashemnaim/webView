@@ -18,13 +18,13 @@ dependencies:
 
 
   cupertino_icons: ^1.0.0
-  csslib: ^0.17.0
-  source_span: ^1.8.0
+  # csslib: ^0.17.0
+  # source_span: ^1.8.0
   webview_flutter: ^1.0.7
   flutter_screenutil: ^4.0.3+2
   skeleton_text: ^2.0.2
   flutter_spinkit: ^4.1.2
-  flutter_webview_plugin: ^0.3.11
+  # flutter_webview_plugin: ^0.3.11
   swipedetector: ^1.2.0
   # flutter_local_notifications: ^4.0.1
   # firebase_messaging: ^7.0.3
