@@ -13,6 +13,10 @@
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>use location to choose pick a addree location</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs your addree to pick the location feature of the Google Maps plugin.</string>
 	<string>6.0</string>
 	<key>CFBundleName</key>
 	<string>webview</string>
